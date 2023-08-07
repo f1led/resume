@@ -5,16 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="valorant, cs, game">
     <meta name="description" content="Здесь вы найдете лучшие советы по разным играм">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@400;700&family=Montserrat:ital,wght@0,400;1,700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Cybersport</title>
 </head>
 <body>
+    <div class="container">
+    <div class="card">
     <img src="" alt="person-img">
      <h1>Матвей Седун</h1>
      <p>Человечек который станет <strong><em>лучшим разработчиком!</em></strong></p>
+     </div>
+     <div class="card">
      <h3>Где меня можно найти:</h3>
-     <a href="https://t.me/f1ledd">Telegram</a><br>
-     <a href="https://vk.com/id278817231">Vk</a><br>
-     <a href="https://discordapp.com/users/440139897186025472/">Discord</a><br>
+     <a class="tg" href="https://t.me/f1ledd">Telegram</a>
+     <a class="vk"href="https://vk.com/id278817231">Vk</a>
+     <a class="discord"href="https://discordapp.com/users/440139897186025472/">Discord</a>
+</div>
+<div class="card">
      <h2><strong>Мои хобби:</strong></strong></h2>
      <ol>
         <li>Игры</li>
@@ -22,6 +32,8 @@
         <li>Спорт</li>
         <li>Велосипед</li>
      </ol>
+     </div>
+     <div class="card">
      <h2><strong>Опыт в играх</strong></strong></h2>
      <table>
         <thead>
@@ -49,9 +61,13 @@
             </tr>
         </tbody>
      </table>
-     <form>
+    </div>
+    <div class="card">
+        <h2>Где меня найти</h2>
+     <form action="/" class="form">
         <div>
         <label for="text">Ваше имя:</label>
+        
         <input placeholder="Введите имя" type="text" id="text">
         </div>
         <div>
@@ -63,7 +79,9 @@
         <br>
         <textarea placeholder="Введите сообщение..." id="textarea" cols="30" rows="5"></textarea>
         </div>
-        <button type="submit">Отправить!</button>
+        <button type="submit" class="btn">Отправить!</button>
      </form>
+    </div>
+</div>
 </body>
 </html>
